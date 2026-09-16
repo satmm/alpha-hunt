@@ -14,75 +14,17 @@
 # wasting applications on unrelated junior/QA/mobile roles.
 # ------------------------------------------------------------
 keywords:
-
-  # Core software engineering
   - "Software Engineer"
-  - "Senior Software Engineer"
-  - "Staff Software Engineer"
-  - "Principal Software Engineer"
   - "Software Development Engineer"
-  - "Senior Software Development Engineer"
   - "SDE"
-  - "SDE II"
-  - "SDE III"
-
-  # Backend / Platform
   - "Backend Engineer"
-  - "Senior Backend Engineer"
   - "Backend Developer"
-  - "Senior Backend Developer"
-  - "Platform Engineer"
-  - "Senior Platform Engineer"
-  - "Distributed Systems Engineer"
-  - "Systems Engineer"
-
-  # Python
   - "Python Developer"
-  - "Senior Python Developer"
-  - "Python Engineer"
-  - "Senior Python Engineer"
-
-  # AI / GenAI / LLM
-  - "AI Engineer"
-  - "Senior AI Engineer"
-  - "AI Software Engineer"
-  - "Applied AI Engineer"
-  - "Senior Applied AI Engineer"
-  - "Generative AI Engineer"
-  - "Senior Generative AI Engineer"
-  - "GenAI Engineer"
-  - "LLM Engineer"
-  - "Senior LLM Engineer"
-  - "AI/ML Engineer"
-  - "Machine Learning Engineer"
-  - "Senior Machine Learning Engineer"
-  - "ML Engineer"
-
-  # Agentic AI / Forward Deployed
-  - "Agentic AI Engineer"
-  - "AI Agent Engineer"
-  - "AI Agents Engineer"
-  - "Forward Deployed Engineer"
-  - "Forward Deployed Software Engineer"
-  - "Forward Deployed AI Engineer"
-  - "Forward Deployed Engineer - Software Engineer"
-  - "Customer Engineer"
-  - "Solutions Engineer"
-
-  # Architecture / technical leadership
-  - "Software Architect"
-  - "Solution Architect"
-  - "Solutions Architect"
-  - "Technical Architect"
-  - "Cloud Architect"
-  - "Platform Architect"
-
-  # Cloud / infrastructure
   - "Cloud Engineer"
-  - "Senior Cloud Engineer"
-  - "Cloud Software Engineer"
+  - "DevOps Engineer"
   - "Infrastructure Engineer"
-  - "Senior Infrastructure Engineer"
+  - "AI Engineer"
+  - "Machine Learning Engineer"
 
 # ------------------------------------------------------------
 # LOCATIONS
@@ -120,7 +62,6 @@ locations:
 # levels in since this example config targets senior IC roles.
 # ------------------------------------------------------------
 exclude_keywords:
-
   - "Senior Staff"
   - "Staff+"
   - "Director"
@@ -169,7 +110,6 @@ exclude_keywords:
 # Ashby      -> jobs.ashbyhq.com/<token>
 # ------------------------------------------------------------
 companies:
-
   # AI / enterprise / agentic AI
   - name: "Level AI"
     ats: lever
@@ -229,16 +169,15 @@ broad_search:
 # APPLICANT PROFILE
 # ------------------------------------------------------------
 applicant:
+  first_name: "Satyam"
+  last_name: "Singh"
 
-  first_name: "Your"
-  last_name: "Name"
+  email: "satyamsingh.on@gmail.com"
+  phone: "+91 6360529665"
 
-  email: "you@example.com"
-  phone: "+10000000000"
+  linkedin_url: "https://www.linkedin.com/in/satyamsinghh/"
 
-  linkedin_url: "https://www.linkedin.com/in/yourprofile/"
-
-  portfolio_url: "https://yourportfolio.example.com/"
+  portfolio_url: "https://satmm-portfolio.netlify.app/"
 
   # Recommended: convert your resume to PDF and place it here.
   resume_path: "data/resume.pdf"
@@ -249,7 +188,6 @@ applicant:
 # APPLICATION BEHAVIOR
 # ------------------------------------------------------------
 settings:
-
   # NEVER guess answers to employer-specific questions.
   # Prevents bad submissions and inaccurate declarations.
   auto_submit_only_if_fully_answered: false
